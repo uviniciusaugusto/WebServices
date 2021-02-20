@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="favicon.ico" />
+	<title>Previsão do Tempo</title>
+</head>
+<body>
+	<div id="mapa"></div>
+	<div id="pesquisa">
+		<label>
+			<img src="imagemTempo.png" id="imagem">
+        	<input id="texto" type="text" >
+          	<span class="helper-text" data-error="wrong" data-success="right">Nome da cidade.</span>
+			<div id="botao">
+				<a id="button" class="waves-effect waves-light btn-large">Procurar</a>
+			</div>
+		</label>
+		
+	</div>
+
+	
+	<div id="informacoes"></div>
+
+	<script type="text/javascript" src="jquery-3.3.1.min.js" ></script>   
+	<script src="http://maps.googleapis.com/maps/api/js?key=SUA_CHAVE"></script>
+	<script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>
