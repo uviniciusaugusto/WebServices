@@ -2,7 +2,7 @@
 
 <h3>Previsão do tempo</h3>
 
-<br><h4>Atividade realizada com o intuito de consumir API OpenWeatherMap e Google Maps</h4>
+<h4>Atividade realizada com o intuito de consumir API OpenWeatherMap e Google Maps</h4>
 
 <br>Para execução é necessário fazer o download dos arquivos e posteriormente trocar a o texto "SUA_CHAVE" presente no arquivo "index.html" por sua chave do Google Maps:
 <br>Linha 29: <script src="http://maps.googleapis.com/maps/api/js?key=SUA_CHAVE"></script>
